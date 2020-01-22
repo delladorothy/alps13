@@ -14,12 +14,14 @@ public class Code1284 {
 
 		int num1 = scan.nextInt();
 
+		// 소인수분해
 		while (true) {
 			for (int i = 2; i <= num1; i++) {
+				System.out.println(i);
 				if (num1 % i == 0) {
-					primeNum.add(i);
+					primeNum.add(i); // ArrayList에 추가
 					num1 /= i;
-					i = 1;
+					i = 1; // i = 2로 초기화
 				}
 			}
 
