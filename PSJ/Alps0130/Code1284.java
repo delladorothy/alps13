@@ -19,13 +19,14 @@ public class Code1284 {
 				if (num1 % i == 0) {
 					primeNum.add(i);
 					num1 /= i;
+					i = 1;
 				}
 			}
-			
+
 			if (num1 == 1)
 				break;
 		}
-		
+
 		if (primeNum.size() == 2)
 			System.out.println(primeNum.get(0) + " " + primeNum.get(1));
 		else
