@@ -11,7 +11,7 @@ int main(void)
 	{
 		cin >> time;
 		cin >> minute;
-		if (time >= 24 && minute >= 60) 
+		if (time >= 24 || minute >= 60) 
 		{
 			cout << "time < 24 &&minute < 60" << endl;
 			cout << "다시입력: ";
