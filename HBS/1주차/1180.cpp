@@ -19,4 +19,6 @@ int main(void)
 	cout << TrashCan;
 	if (TrashCan <= 50)cout << "good";
 	else cout << "oh my god";
+
+	return 0;
 }
