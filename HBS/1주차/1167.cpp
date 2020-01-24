@@ -9,7 +9,7 @@ int main(void)
 	int second;
 	for (int i = 0; i < 3; i++)								//세개의 정수 입력
 	{
-		cout <<  << " 번째 정수입력: ";
+		cout << i << " 번째 정수입력: ";
 		cin >> num[i];
 	}
 	cout << endl;
