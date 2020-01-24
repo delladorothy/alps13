@@ -7,7 +7,7 @@ int main(void)
 	int minute=60;
 
 	cout << "time < 24 &&minute < 60" << endl;
-	while (time >= 24 && minute >= 60)								//time,minute이 범위 밖의 값을 입력시 반복
+	while (time >= 24 || minute >= 60)								//time,minute이 범위 밖의 값을 입력시 반복
 	{
 		cin >> time;
 		cin >> minute;
