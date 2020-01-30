@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 using namespace std;
 int main(void) 
 {
@@ -13,6 +13,7 @@ int main(void)
 	if (a + b <= c)										//»ï°¢ÇüÀÇÁ¶°ÇÀÌ ¾Æ´Ò°æ¿ì
 	{
 		cout << "»ï°¢Çü¾Æ´Ô" << endl;
+		return 0;
 	}
 	while (a + b > c)												//»ï°¢ÇüÀÏ°æ¿ì
 	{
@@ -37,4 +38,5 @@ int main(void)
 			break;
 		}
 	}
+	return 0;
 }

@@ -31,7 +31,7 @@ int main(void)
 
 
 	for (int i = 0; i < factor_i; i++)				// 인수이자 소수인 수 중에 곱이
-	{												// n이되는지
+	{												// n이되는지 
 		for (int s = i; s < factor_i; s++)
 		{
 			if (factor[i] * factor[s] == n)
