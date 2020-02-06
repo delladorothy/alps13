@@ -3,9 +3,9 @@ using namespace std;
 
 int main(void)
 {
-	int n, g, ki = 0;
-	int len;
-	bool div = false;
+	int n, g, ki = 0;		//n=데이터 수, g=한묶음안의 수, ki=k배열의 현재 인덱스
+	int len;				//len = 묶음의 수
+	bool div = false;		//div=데이터수가 g의 배수인지
 	cin >> n >> g;
 	int* k = new int[n];
 	for (int i = 0; i < n; i++)

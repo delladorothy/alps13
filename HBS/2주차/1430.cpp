@@ -4,11 +4,13 @@ using namespace std;
 int main(void)
 {
 	int n, m;
-	int arr_n[20], arr_m[20];
+	int* arr_n, int* arr_m;
 	bool hi = false;
 	cin >> n;
+	arr_n = new int[n];
 	for (int i = 0; i < n; i++)cin >> arr_n[i];
 	cin >> m;
+	arr_m = new int[m];
 	for (int i = 0; i < m; i++)cin >> arr_m[i];
 
 	for (int i = 0; i < m; i++)
